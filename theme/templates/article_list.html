@@ -1,0 +1,17 @@
+{% for article in articles %}
+  <div class="uk-width-medium-3-4">
+    <h1>
+      <a href="{{ SITEURL}}/{{ article.url }}">{{ article.title }}</a>
+    </h1>
+
+    {{ article.content }}
+    <!-- <a class="uk-button uk-button-primary" href="{{ SITEURL}}/{{ article.url }}">Read more</a> -->
+  </div>
+
+  {% if not loop.last %}
+  <div class="uk-width-medium-3-4">
+    <hr class="uk-grid-divider">
+  </div>
+  {% endif %}
+
+{% endfor %}

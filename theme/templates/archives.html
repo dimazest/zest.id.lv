@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="uk-width-medium-3-4">
+
+    <h1>Blog</h1>
+
+    <ul>
+    {% for article in dates %}
+        <li>
+            <a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a>
+        </li>
+    {% endfor %}
+    </ul>
+</div>
+
+{% endblock %}

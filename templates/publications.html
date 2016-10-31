@@ -1,0 +1,35 @@
+
+<ul>
+  {% for p in publications %}
+    <li id="{{ p.id }}">
+
+      {% for author in p.author %}
+        {{ author|reverse|join(' ') }}{% if not loop.last %},{% endif %}
+      {% endfor %}
+
+      {% if p.link %}
+        <a href="{{ p.link }}">{{ p.title }}</a>.
+      {% else %}
+        <i>{{ p.title }}</i>.
+      {% endif %}
+
+      {% if p.booktitle or p.journal %}
+        In {{ p.booktitle or p.journal }},
+      {% endif %}
+
+      {% if p.location or p.address %}
+        {{ p.location or p.address }},
+      {% endif  %}
+
+      {% if p.year %}
+        {{ p.year }}
+      {% endif %}
+
+      {% if p.doi %}
+        <span class="uk-text-small"><a href="http://dx.doi.org/{{ p.doi }}">doi</a></span>
+      {% endif %}
+
+
+    </li>
+  {% endfor %}
+</ul>

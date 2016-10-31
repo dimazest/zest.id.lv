@@ -1,0 +1,75 @@
+a.uk-active {
+    font-weight: 700;
+}
+
+div.front-page {
+    position: relative;
+    top: -25px;
+    padding: 5px;
+}
+
+div.front-page h1 {
+    text-align: right;
+}
+
+div.front-page p {
+    text-align: right;
+    float: right;
+    max-width: 70%;
+}
+
+#cover{
+    height: 190px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: none;
+}
+
+#cover h1{
+    text-align: center;
+    color: #eee;
+    text-shadow: 0px 0px 5px #000;
+}
+
+
+a.image-attribution{
+    text-align: center;
+    color: #999;
+    text-shadow: 0px 0px 3px #000, 0px 0px 10px transparent
+}
+
+table {
+    border: none !important;
+}
+
+table td, table.table th {
+    border: none;
+}
+
+table.schedule {
+    border-collapse: collapse;
+    border-spacing: 0px;
+}
+
+table.schedule td {
+    border: 1px solid black;
+    vertical-align: middle;
+    text-align: center;
+}
+
+table.schedule td.blank {
+    border: none;
+}
+
+table.schedule td.vertical {
+    transform: rotate(270deg);
+    transform-origin: center center 0;
+}
+
+th.field-name {
+    text-align: left;
+}
+
+li p.first{
+    margin-bottom: 0;
+}

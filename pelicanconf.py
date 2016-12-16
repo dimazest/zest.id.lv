@@ -36,7 +36,7 @@ MENUITEMS = (
     ('Blog', 'index.html#blog'),
     ('Software', 'software'),
     ('Bibliography', 'bibliogrpahy.html'),
-#    ('Brexit', 'brexit')
+    ('Reading list', 'reading-list.html'),
 )
 
 # Blogroll
@@ -64,21 +64,9 @@ STATIC_PATHS = (
     'images',
     'static/',
     'papers/*',
-    #'static/ANDailment.csv',
 )
 
 EXTRA_PATH_METADATA = {
-    #'static/ANDailment.csv': {'path': 'ANDailment.csv'},
-    #'static/aclsrw2016_results.csv': {'path': 'aclsrw2016/results.csv'},
-    #'static/aclsrw2016.zip': {'path': 'aclsrw2016/supplement.zip'},
-    #'static/brexit/brexit_timeline.csv': {'path': 'brexit/brexit_timeline.csv'},
-    #'static/brexit/brexit_tweets_ids.csv.gz': {'path': 'brexit/brexit_tweet_ids.csv.gz'},
-
-    #'static/thesis/phraserel.csv': {'path': 'thesis/phraserel.csv'},
-    #'static/thesis/phraserel-raw.csv': {'path': 'thesis/phraserel-raw.csv'},
-    #'static/thesis/emnlp2013_turk_HighSim.txt': {'path': 'thesis/emnlp2013_turk_HighSim.txt'},
-    #'static/thesis/emnlp2013_turk_MedSim.txt': {'path': 'thesis/emnlp2013_turk_MedSim.txt'},
-    #'static/thesis/emnlp2013_turk_LowSim.txt': {'path': 'thesis/emnlp2013_turk_LowSim.txt'},
 }
 
 DEFAULT_PAGINATION = False

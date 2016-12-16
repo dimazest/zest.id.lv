@@ -2,9 +2,10 @@
  Bibliography
 ==============
 
-:date: 2015-06-16 13:20
-:save_as: bibliogrpahy.html
-:url: bibliogrpahy.html
+:date: 2016-11-01 10:00
+:save_as: bibliography.html
+
+.. contents::
 
 .. publications:: content/static/references.bib
     :sort: none-reversed

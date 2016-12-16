@@ -9,6 +9,8 @@
 
       {% if p.link %}
         <a href="{{ p.link }}">{{ p.title }}</a>.
+      {% elif p.doi %}
+        <a href="http://dx.doi.org/{{ p.doi }}">{{ p.title }}</a>.
       {% else %}
         <i>{{ p.title }}</i>.
       {% endif %}
@@ -28,7 +30,6 @@
       {% if p.doi %}
         <span class="uk-text-small"><a href="http://dx.doi.org/{{ p.doi }}">doi</a></span>
       {% endif %}
-
 
     </li>
   {% endfor %}

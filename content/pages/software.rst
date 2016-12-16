@@ -26,8 +26,7 @@ festivals.
 :code: https://github.com/dimazest/google-ngram-downloader
 :pypi: https://pypi.python.org/pypi/google-ngram-downloader
 
-`An easy way <{filename}/articles/002-google-ngram-downloader.rst>`_ to access
-ngram counts in a streaming fashion:
+An easy way to access ngram counts in a streaming fashion:
 
 .. code-block:: python
 

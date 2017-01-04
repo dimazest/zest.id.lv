@@ -76,7 +76,6 @@ publish:
 	$(PELICAN) $(INPUTDIR) -o $(OUTPUTDIR) -s $(PUBLISHCONF) $(PELICANOPTS)
 
 deploy: publish
-	rsync -e "ssh -p $(SSH_PORT)" -Phi -rvzl --delete $(OUTPUTDIR)/ $(SSH_USER)@$(SSH_HOST):$(SSH_TARGET_DIR) --stats
-	echo 'ln -s /import/dima-scratch/t public_html/t' | ssh $(SSH_USER)@$(SSH_HOST) -p $(SSH_PORT)
+	bin/ghp-import -p -b master $(OUTPUTDIR)
 
 .PHONY: html help clean regenerate serve devserver publish deploy bootstrap update

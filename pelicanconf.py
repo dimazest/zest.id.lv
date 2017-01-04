@@ -6,7 +6,7 @@ import pelican_publications
 
 AUTHOR = 'Dmitrijs Milajevs'
 SITENAME = 'Dmitrijs Milajevs'
-SITESUBTITLE = 'at Queen Mary University of London'
+SITESUBTITLE = ''
 SITEURL = ''
 
 TIMEZONE = 'Europe/London'
@@ -35,7 +35,7 @@ DISPLAY_PAGES_ON_MENU = False
 MENUITEMS = (
     ('Blog', 'index.html#blog'),
     ('Software', 'software'),
-    ('Bibliography', 'bibliogrpahy.html'),
+    ('Bibliography', 'bibliography.html'),
     ('Reading list', 'reading-list.html'),
 )
 
@@ -55,7 +55,7 @@ MAIL_USERNAME = 'dimazest'
 MAIL_HOST = 'gmail.com'
 
 TWITTER_USERNAME = 'dimazest'
-DISQUS_SITENAME = 'dmitrijsmilajevs-qmul'
+#DISQUS_SITENAME = 'dmitrijsmilajevs-qmul'
 GITHUB_URL = 'https://github.com/dimazest'
 GOOGLE_ANALYTICS = 'UA-1173947-7'
 LINKEDIN_URL = 'http://www.linkedin.com/in/dmitrijsmilajevs'

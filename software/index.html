@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Dmitrijs Milajevs</title>
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon-precomposed" href="images/apple-touch-icon.png">
+    <link rel="stylesheet" href="http://zest.id.lv/theme/css/uikit.almost-flat.min.css" />
+    <link rel="stylesheet" href="http://zest.id.lv/theme/css/addons/uikit.almost-flat.addons.min.css" />
+    <link rel="stylesheet" href="http://zest.id.lv/theme/css/main.css" />
+    <link rel="stylesheet" href="http://zest.id.lv/theme/css/pygments.css" />
+      <link href="http://zest.id.lv/feeds/all.rss.xml" type="application/atom+xml" rel="alternate" title="Dmitrijs Milajevs Atom Feed" />
+  </head>
+
+  <body>
+    <div class="uk-container uk-container-center uk-margin-top uk-margin-large-bottom">
+
+      <nav class="uk-navbar uk-margin-large-bottom">
+        <header>
+          <a class="uk-navbar-brand uk-hidden-small" href="http://zest.id.lv/">Dmitrijs Milajevs</a>
+        </header>
+        <ul class="uk-navbar-nav uk-hidden-small">
+              <li><a href="http://zest.id.lv/index.html#blog">Blog</a></li>
+              <li><a href="http://zest.id.lv/software">Software</a></li>
+              <li><a href="http://zest.id.lv/bibliography.html">Bibliography</a></li>
+              <li><a href="http://zest.id.lv/reading-list.html">Reading list</a></li>
+
+
+
+        </ul>
+        <a href="#offcanvas" class="uk-navbar-toggle uk-visible-small" data-uk-offcanvas></a>
+        <div class="uk-navbar-brand uk-navbar-center uk-visible-small">Dmitrijs Milajevs</div>
+      </nav>
+
+  <div class="uk-grid" data-uk-grid-margin>
+
+    <div class="uk-width-3-4">
+      <article class="uk-article">
+
+        <h1 class="uk-article-title">Software</h1>
+
+        
+<div class="section" id="poultry">
+<h2><a class="toc-backref" href="#id1"><tt class="docutils literal">poultry</tt></a></h2>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name"></col>
+<col class="field-body"></col>
+<tbody valign="top">
+<tr class="field"><th class="field-name">documentation:</th><td class="field-body"><a class="reference external" href="http://poultry.readthedocs.org/en/latest/">http://poultry.readthedocs.org/en/latest/</a></td>
+</tr>
+<tr class="field"><th class="field-name">code:</th><td class="field-body"><a class="reference external" href="https://github.com/dimazest/poultry">https://github.com/dimazest/poultry</a></td>
+</tr>
+<tr class="field"><th class="field-name">pypi:</th><td class="field-body"><a class="reference external" href="https://pypi.python.org/pypi/poultry">https://pypi.python.org/pypi/poultry</a></td>
+</tr>
+</tbody>
+</table>
+<p>Poultry is a tweet collection manager. With it I've collected the London
+Olympics tweets. Also, it easily gathered tweets about the major European music
+festivals.</p>
+</div>
+<div class="section" id="google-ngram-downloader">
+<h2><a class="toc-backref" href="#id2"><tt class="docutils literal"><span class="pre">google-ngram-downloader</span></tt></a></h2>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name"></col>
+<col class="field-body"></col>
+<tbody valign="top">
+<tr class="field"><th class="field-name">code:</th><td class="field-body"><a class="reference external" href="https://github.com/dimazest/google-ngram-downloader">https://github.com/dimazest/google-ngram-downloader</a></td>
+</tr>
+<tr class="field"><th class="field-name">pypi:</th><td class="field-body"><a class="reference external" href="https://pypi.python.org/pypi/google-ngram-downloader">https://pypi.python.org/pypi/google-ngram-downloader</a></td>
+</tr>
+</tbody>
+</table>
+<p>An easy way to access ngram counts in a streaming fashion:</p>
+<div class="highlight"><pre><span class="o">&gt;&gt;&gt;</span> <span class="kn">from</span> <span class="nn">google_ngram_downloader</span> <span class="kn">import</span> <span class="n">readline_google_store</span>
+<span class="o">&gt;&gt;&gt;</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">fname</span><span class="p">,</span> <span class="n">url</span><span class="p">,</span> <span class="n">records</span> <span class="o">=</span> <span class="nb">next</span><span class="p">(</span><span class="n">readline_google_store</span><span class="p">(</span><span class="n">ngram_len</span><span class="o">=</span><span class="mi">5</span><span class="p">))</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">fname</span>
+<span class="s">'googlebooks-eng-all-5gram-20120701-0.gz'</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">url</span>
+<span class="s">'http://storage.googleapis.com/books/ngrams/books/googlebooks-eng-all-5gram-20120701-0.gz'</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="nb">next</span><span class="p">(</span><span class="n">records</span><span class="p">)</span>
+<span class="n">Record</span><span class="p">(</span><span class="n">ngram</span><span class="o">=</span><span class="s">u'0 " A most useful'</span><span class="p">,</span> <span class="n">year</span><span class="o">=</span><span class="mi">1860</span><span class="p">,</span> <span class="n">match_count</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span> <span class="n">volume_count</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
+</pre></div>
+</div>
+<div class="section" id="turing-machine">
+<h2><a class="toc-backref" href="#id3"><tt class="docutils literal"><span class="pre">turing-machine</span></tt></a></h2>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name"></col>
+<col class="field-body"></col>
+<tbody valign="top">
+<tr class="field"><th class="field-name">code:</th><td class="field-body"><a class="reference external" href="https://github.com/dimazest/turing_machine">https://github.com/dimazest/turing_machine</a></td>
+</tr>
+<tr class="field"><th class="field-name">pypi:</th><td class="field-body"><a class="reference external" href="https://pypi.python.org/pypi/turing_machine">https://pypi.python.org/pypi/turing_machine</a></td>
+</tr>
+<tr class="field"><th class="field-name">notebook:</th><td class="field-body"><a class="reference external" href="http://nbviewer.ipython.org/github/dimazest/turing_machine/blob/master/Turing%20machine.ipynb">http://nbviewer.ipython.org/github/dimazest/turing_machine/blob/master/Turing%20machine.ipynb</a></td>
+</tr>
+</tbody>
+</table>
+<p>A simulator of a Turing machine implemented as a generator. The most pythonic
+implementation in the whole Internet!</p>
+</div>
+<div class="section" id="this-webpage">
+<h2><a class="toc-backref" href="#id4">This webpage</a></h2>
+<!-- :code: https://bitbucket.org/dimazest/dima_qmul_homepage/src -->
+<p>It's is created with <a class="reference external" href="http://docs.getpelican.com">Pelican</a> and a bunch of
+plugins, most notable being <a class="reference external" href="https://github.com/dimazest/pelican_publications">pelican_publications</a> (a fork of
+<a class="reference external" href="https://github.com/adamreeve/pelican_publications">https://github.com/adamreeve/pelican_publications</a>), which nicely shows <a class="reference external" href="http://zest.id.lv/pages/bibliography.html">the
+papers I'm interested in</a>.</p>
+</div>
+
+
+      </article>
+
+    </div>
+
+      <div class="uk-width-large-1-4">
+        <div class="uk-sticky-placeholder" style="height: 270px;">
+          <div class="uk-panel uk-panel-box toc" data-uk-sticky="{top:35}" data-uk-scrollspy-nav>
+            <div class="toc" id="">
+
+<ul class="simple">
+<li><a class="reference internal" href="#poultry" id="id1"><tt class="docutils literal">poultry</tt></a></li>
+<li><a class="reference internal" href="#google-ngram-downloader" id="id2"><tt class="docutils literal"><span class="pre">google-ngram-downloader</span></tt></a></li>
+<li><a class="reference internal" href="#turing-machine" id="id3"><tt class="docutils literal"><span class="pre">turing-machine</span></tt></a></li>
+<li><a class="reference internal" href="#this-webpage" id="id4">This webpage</a></li>
+</ul>
+</div>
+          </div>
+        </div>
+      </div>
+  </div>
+
+    </div>
+
+    <div id="offcanvas" class="uk-offcanvas">
+      <div class="uk-offcanvas-bar">
+        <ul class="uk-nav uk-nav-offcanvas">
+          <li>
+            <a href="http://zest.id.lv/">Dmitrijs Milajevs</a>
+          </li>
+              <li><a href="http://zest.id.lv/index.html#blog">Blog</a></li>
+              <li><a href="http://zest.id.lv/software">Software</a></li>
+              <li><a href="http://zest.id.lv/bibliography.html">Bibliography</a></li>
+              <li><a href="http://zest.id.lv/reading-list.html">Reading list</a></li>
+
+
+        </ul>
+      </div>
+    </div>
+
+    <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-1173947-7']);
+    _gaq.push(['_trackPageview']);
+    (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+    </script>
+
+    <script src="http://zest.id.lv/theme/js/jquery.min.js"></script>
+    <script src="http://zest.id.lv/theme/js/uikit.min.js"></script>
+    <script src="http://zest.id.lv/theme/js/components/sticky.min.js"></script>
+
+  </body>
+</html>

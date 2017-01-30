@@ -19,7 +19,13 @@ Twitter
        Alonso:2013:TMI:2528394.2528396
        Anger:2011:MIT:2024288.2024326
        Bakshy:2011:EIQ:1935826.1935845
-
+       freitas-ji:2016:NLPandCSS
+       krishnan-eisenstein:2016:CNS
+       poghosyan-ifrim:2016:CNS
+       bruggermann-EtAl:2016:CNS
+       kim-EtAl:2016:NLPandCSS
+       johnson-goldwasser:2016:NLPandCSS
+       
 Near-duplicate detection
 ------------------------
 

@@ -23,11 +23,13 @@ Twitter
 Near-duplicate detection
 ------------------------
 
+
 .. publications:: content/static/references.bib
     :sort: none
     :entries:
        Tao:2013:GDN:2488388.2488499
        Zhang:2010:SHF:1835449.1835455
+       2016arXiv161207545C
 
 * `simhash <https://github.com/seomoz/simhash-py>`_
 * `NearDuplicatesDetection <https://github.com/parkr/near-dup-detection>`_
@@ -127,6 +129,7 @@ Other
        Bing2016
        NIPS2015_5849
        2015arXiv151105939R
+       2017arXiv170103980N
 
 TensorFlow
 ----------

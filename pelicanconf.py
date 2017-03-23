@@ -64,9 +64,11 @@ STATIC_PATHS = (
     'images',
     'static/',
     'papers/*',
+    'extra/CNAME',
 )
 
 EXTRA_PATH_METADATA = {
+    'extra/CNAME': {'path': 'CNAME'},
 }
 
 DEFAULT_PAGINATION = False

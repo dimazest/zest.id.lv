@@ -25,7 +25,19 @@ Twitter
        bruggermann-EtAl:2016:CNS
        kim-EtAl:2016:NLPandCSS
        johnson-goldwasser:2016:NLPandCSS
-       
+
+Clustering
+----------
+
+.. publications:: content/static/references.bib
+    :sort: none
+    :entries:
+       ifrim2014event
+       doi:10.1177/0165551517698564
+       7870987
+       castellanos2017formal
+       6525357
+
 Near-duplicate detection
 ------------------------
 

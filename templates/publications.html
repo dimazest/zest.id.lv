@@ -7,8 +7,8 @@
         {{ author|reverse|join(' ') }}{% if not loop.last %},{% endif %}
       {% endfor %}
 
-      {% if p.link %}
-        <a href="{{ p.link }}">{{ p.title }}</a>.
+      {% if p.url %}
+        <a href="{{ p.url }}">{{ p.title }}</a>.
       {% elif p.doi %}
         <a href="http://dx.doi.org/{{ p.doi }}">{{ p.title }}</a>.
       {% else %}

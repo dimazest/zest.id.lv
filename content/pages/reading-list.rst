@@ -9,6 +9,18 @@
 
 .. contents::
 
+LangID
+======
+
+.. publications:: content/static/references.bib
+    :sort: none
+    :entries:
+        Zubiaga2016TweetLID
+        jaech-EtAl:2016:SocialNLP
+        williams-dagli:2017:VarDial
+        kim2016
+
+
 Twitter
 =======
 
@@ -25,7 +37,7 @@ Twitter
        bruggermann-EtAl:2016:CNS
        kim-EtAl:2016:NLPandCSS
        johnson-goldwasser:2016:NLPandCSS
-       
+
 Near-duplicate detection
 ------------------------
 

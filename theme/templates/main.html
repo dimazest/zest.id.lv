@@ -39,17 +39,6 @@
 
     <div class="uk-width-3-4">
       {{ page.content }}
-
-      <h2 id="blog">Blog</h2>
-
-      <ul>
-      {% for article in dates %}
-          <li>
-              <a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a>
-          </li>
-      {% endfor %}
-      </ul>
-
     </div>
 
     <div class="uk-width-large-1-4">

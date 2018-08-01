@@ -33,7 +33,6 @@ TRANSLATION_FEED_ATOM = None
 DISPLAY_CATEGORIES_ON_MENU = False
 DISPLAY_PAGES_ON_MENU = False
 MENUITEMS = (
-    ('Blog', 'index.html#blog'),
     ('Software', 'software'),
     ('Bibliography', 'bibliography.html'),
     ('Reading list', 'reading-list.html'),

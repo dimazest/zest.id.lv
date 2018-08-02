@@ -19,7 +19,10 @@ LangID
         jaech-EtAl:2016:SocialNLP
         williams-dagli:2017:VarDial
         kim2016
-
+        W17-4408
+        solorio-EtAl:2014:CodeSwitch
+        W16-5805
+        samih-maier-kallmeyer:2016:W16-58
 
 Twitter
 =======

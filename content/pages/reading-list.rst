@@ -23,6 +23,9 @@ LangID
         solorio-EtAl:2014:CodeSwitch
         W16-5805
         samih-maier-kallmeyer:2016:W16-58
+        DBLP:journals/corr/abs-1804-08186
+        Sristy:2017:LIM:3158354.3158357
+        a11040039
 
 Twitter
 =======

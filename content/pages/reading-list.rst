@@ -28,6 +28,25 @@ LangID
         a11040039
         tromp2011graph
 
+Code Switching
+--------------
+
+.. publications:: content/static/references.bib
+    :sort: none
+    :entries:
+        paolillo2011
+        gumperz_1982
+        cardenas2009code
+        nilep_2017
+        danet2007multilingual
+        doi:10.1080/019722499128466
+        myers1995social
+        myers1997duelling
+        paolillo2007much
+        van1988loan
+        paolillo2005measuring
+
+
 Twitter
 =======
 

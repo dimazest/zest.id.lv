@@ -19,8 +19,9 @@ LangID
         jaech-EtAl:2016:SocialNLP
         williams-dagli:2017:VarDial
         kim2016
-        W17-4408
         solorio-EtAl:2014:CodeSwitch
+        W17-4408
+        W16-58:2016
         W16-5805
         samih-maier-kallmeyer:2016:W16-58
         DBLP:journals/corr/abs-1804-08186
@@ -45,7 +46,10 @@ Code Switching
         paolillo2007much
         van1988loan
         paolillo2005measuring
-
+        jurgens-dimitrov-ruths:2014:CodeSwitch
+        negróngoldbarg2009
+        doi:10.1111/j.1083-6101.2002.tb00157.x
+        auer2013and
 
 Twitter
 =======
@@ -79,7 +83,6 @@ Clustering
 Near-duplicate detection
 ------------------------
 
-
 .. publications:: content/static/references.bib
     :sort: none
     :entries:
@@ -91,14 +94,6 @@ Near-duplicate detection
 * `NearDuplicatesDetection <https://github.com/parkr/near-dup-detection>`_
 * `Near-Duplicate Detection <https://moz.com/devblog/near-duplicate-detection/>`_
 * `Near duplicate detection in streaming twitter data <https://pradeepprabakar.wordpress.com/2012/05/30/near-duplicate-detection-in-streaming-twitter-data/>`_
-
-Code switching
-==============
-
-.. publications:: content/static/references.bib
-    :sort: none
-    :entries:
-       W16-58:2016
 
 
 Distributed representations

@@ -50,6 +50,20 @@ Code Switching
         negróngoldbarg2009
         doi:10.1111/j.1083-6101.2002.tb00157.x
         auer2013and
+        HAMED2017208
+        muysken_1995
+        doi:10.1111/j.0079-1636.2004.00131.x
+        hornberger2010sociolinguistics
+
+Named Entities
+==============
+
+.. publications:: content/static/references.bib
+    :sort: none
+    :entries:
+        baldwin-EtAl:2015:WNUT
+        aguilar-EtAl:2018:W18-32
+        yadav-bethard:2018:C18-1
 
 Twitter
 =======
@@ -67,6 +81,7 @@ Twitter
        bruggermann-EtAl:2016:CNS
        kim-EtAl:2016:NLPandCSS
        johnson-goldwasser:2016:NLPandCSS
+       oro40660
 
 Clustering
 ----------

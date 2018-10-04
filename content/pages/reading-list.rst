@@ -64,6 +64,8 @@ Named Entities
         baldwin-EtAl:2015:WNUT
         aguilar-EtAl:2018:W18-32
         yadav-bethard:2018:C18-1
+        W17-4418
+        W16-3919
 
 Twitter
 =======

@@ -25,6 +25,17 @@ __ https://scholar.google.co.uk/citations?user=CScje3kAAAAJ&hl=en
 
 .. publications:: content/static/dmilajevs_publications.bib
     :sort: date
+    :entries:
+        milajevs-EtAl:2014:EMNLP2014
+        milajevs-purver:2014:CVSC
+        Milajevs:2013:RTD:2487788.2488050
+        Milajevs:2015:IMN:2808194.2809448
+        milajevs-sadrzadeh-purver:2016:ACL-SRW
+        milajevs-griffiths:2016:RepEval
+        milajevs:2017:BUCC
+        lin2017rts
+        milajevs2018lvtopics
+
 
 Projects
 ========

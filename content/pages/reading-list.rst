@@ -84,6 +84,8 @@ Twitter
        kim-EtAl:2016:NLPandCSS
        johnson-goldwasser:2016:NLPandCSS
        oro40660
+       Llewellyn:2018:RTH:3197026.3203876
+       oro54344
 
 Clustering
 ----------

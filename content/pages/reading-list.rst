@@ -9,6 +9,67 @@
 
 .. contents::
 
+Social media and Society
+========================
+
+Theory
+------
+
+.. publications:: content/static/references.bib
+    :sort: none
+    :entries:
+        boyd2017did
+        doi:10.1086/267990
+        doi:10.1111/j.1468-2958.2011.01418.x
+        DBLP:journals/corr/abs-1801-06863
+        doi:10.1111/jcom.12232
+        fallis2009conceptual
+        geertz1977interpretation
+        jackall1995propaganda
+        mccombs2013communication
+        tucker2018social
+        aei282522
+
+Computational Propaganda
+------------------------
+
+.. publications:: content/static/references.bib
+    :sort: none
+    :entries:
+        computationalPropaganda
+        FM6161
+        IJoC6298
+        woolley2016social
+
+Europe
+------
+
+.. publications:: content/static/references.bib
+    :sort: none
+    :entries:
+        lucas2016winning
+        berzicnvs2014analysis
+        aei290423
+        doi:10.1080/17512786.2016.1163237
+        doi:10.1111/j.1475-6765.2006.00690.x
+        ICWSM1613015
+
+Other
+-----
+
+.. publications:: content/static/references.bib
+    :sort: none
+    :entries:
+        aei277604
+        DBLP:conf/icwsm/Starbird17
+        10.1371/journal.pone.0171774
+        Subrahmanian:2016:DTB:2963141.2963882
+        alexanyan2012exploring
+        doi:10.1089/big.2017.0038
+        kelly2012mapping
+        meister2016isolation
+        Sanovich:2018:0010-4159:435
+
 LangID
 ======
 

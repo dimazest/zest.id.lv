@@ -18,9 +18,11 @@ Theory
 .. publications:: content/static/references.bib
     :sort: none
     :entries:
-        boyd2017did
+        doi:10.1177/1940161217740697
+        doi:10.1093/poq/nfs038
         doi:10.1086/267990
         doi:10.1111/j.1468-2958.2011.01418.x
+        aei282522
         DBLP:journals/corr/abs-1801-06863
         doi:10.1111/jcom.12232
         fallis2009conceptual
@@ -28,7 +30,7 @@ Theory
         jackall1995propaganda
         mccombs2013communication
         tucker2018social
-        aei282522
+        boyd2017did
 
 Computational Propaganda
 ------------------------

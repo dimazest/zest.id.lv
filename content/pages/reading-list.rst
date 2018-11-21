@@ -53,9 +53,10 @@ Europe
         doi:10.1080/17512786.2016.1163237
         doi:10.1111/j.1475-6765.2006.00690.x
         ICWSM1613015
+        MACDUFFEEMETZGER201616
 
-Controversy
------------
+Computational
+-------------
 
 .. publications:: content/static/references.bib
     :sort: none
@@ -63,6 +64,7 @@ Controversy
         DBLP:journals/corr/Dori-HacohenJA17
         addawood-bashir:2016:ArgMining2016
         URN:NBN:fi:aalto-201709046874
+        linder2017improved
 
 
 Other

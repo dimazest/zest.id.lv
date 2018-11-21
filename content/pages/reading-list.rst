@@ -18,6 +18,7 @@ Theory
 .. publications:: content/static/references.bib
     :sort: none
     :entries:
+        tucker2018social
         doi:10.1177/1940161217740697
         doi:10.1093/poq/nfs038
         doi:10.1086/267990
@@ -29,7 +30,6 @@ Theory
         geertz1977interpretation
         jackall1995propaganda
         mccombs2013communication
-        tucker2018social
         boyd2017did
 
 Computational Propaganda

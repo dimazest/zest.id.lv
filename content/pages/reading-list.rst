@@ -54,6 +54,17 @@ Europe
         doi:10.1111/j.1475-6765.2006.00690.x
         ICWSM1613015
 
+Controversy
+-----------
+
+.. publications:: content/static/references.bib
+    :sort: none
+    :entries:
+        DBLP:journals/corr/Dori-HacohenJA17
+        addawood-bashir:2016:ArgMining2016
+        URN:NBN:fi:aalto-201709046874
+
+
 Other
 -----
 

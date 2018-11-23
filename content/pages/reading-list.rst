@@ -49,6 +49,7 @@ Europe
 .. publications:: content/static/references.bib
     :sort: none
     :entries:
+        berzicna2018footprint
         lucas2016winning
         berzicnvs2014analysis
         aei290423
@@ -84,6 +85,7 @@ Other
         kelly2012mapping
         meister2016isolation
         Sanovich:2018:0010-4159:435
+        singer2018likewar
 
 LangID
 ======

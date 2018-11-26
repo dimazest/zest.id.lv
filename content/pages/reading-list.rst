@@ -23,6 +23,7 @@ Theory
         pennycook2017implausibility
         pennycook2017implied
         doi:10.1111/jcc4.12164
+        doi:10.1093/poq/nfx040
         doi:10.1177/1940161217740697
         doi:10.1093/poq/nfs038
         doi:10.1086/267990

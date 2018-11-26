@@ -19,6 +19,9 @@ Theory
     :sort: none
     :entries:
         tucker2018social
+        doi:10.1177/1461444817712086
+        pennycook2017implausibility
+        pennycook2017implied
         doi:10.1177/1940161217740697
         doi:10.1093/poq/nfs038
         doi:10.1086/267990
@@ -49,7 +52,7 @@ Europe
 .. publications:: content/static/references.bib
     :sort: none
     :entries:
-        berzicna2018footprint
+        berzina2018footprint
         lucas2016winning
         berzicnvs2014analysis
         aei290423
